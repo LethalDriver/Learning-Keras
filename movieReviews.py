@@ -56,3 +56,5 @@ plt.pyplot.xlabel("Epochs")
 plt.pyplot.ylabel("Loss")
 plt.pyplot.legend()
 plt.pyplot.show()
+
+print(model.evaluate(x_test,y_test))
